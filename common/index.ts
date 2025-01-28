@@ -28,6 +28,7 @@ import {
   ReviewRequestView,
 } from "@database/models"
 import AuditLogsService from "@root/services/admin/AuditLogsService"
+import { RepairService } from "@root/services/admin/RepairService"
 import RepoManagementService from "@root/services/admin/RepoManagementService"
 import GitFileCommitService from "@root/services/db/GitFileCommitService"
 import GitFileSystemService from "@root/services/db/GitFileSystemService"
@@ -247,4 +248,9 @@ export const auditLogsService = new AuditLogsService({
   reviewRequestService,
   sitesService,
   usersService,
+})
+
+export const repairService = new RepairService({
+  reposService,
+  gitFileSystemService,
 })
