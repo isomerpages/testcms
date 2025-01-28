@@ -75,7 +75,7 @@
     "helmet": "^4.6.0",
     "hot-shots": "^10.0.0",
     "http-errors": "~1.8.0",
-    "is-svg": "^4.4.0",
+    "is-svg": "^5.1.0",
     "isomorphic-dompurify": "^2.0.0",
     "isomorphic-git": "^1.25.10",
     "joi": "^17.13.1",
