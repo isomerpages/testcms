@@ -95,7 +95,7 @@
     "pg": "^8.11.5",
     "pg-connection-string": "^2.6.4",
     "pino": "^8.21.0",
-    "query-string": "^6.14.1",
+    "query-string": "^9.1.0",
     "reflect-metadata": "^0.2.2",
     "sequelize": "^6.37.3",
     "sequelize-typescript": "^2.1.6",
